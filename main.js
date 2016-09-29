@@ -49,11 +49,31 @@ var woodItems = items.filter(function(item){
 var printItems = woodItems.forEach(function(item){
   console.log(item["title"]);
  });
-//prints the titles of each item that was stored in the previous function 
+//prints the titles of each item that was stored in the previous function
 
 //5.
 
+var eightItems = items.filter(function(item){
+  if(item["materials"].length >= 8) {
+    return item;
+  }
+});
+// filters all of the materials keys for the two that have a length longer than 8
+var logLongItems = eightItems.forEach(function(item){
+  console.log(item);
+});
+//pringts the objects that have more than 8 materials
 
+//6.
+
+var madeBySeller = items.filter(function(item){
+  if(item["who_made"] == "i_did") {
+    return item;
+  }
+});
+// grabs each item that was made by the seller
+console.log(madeBySeller.length + " were made by their sellers");
+//logs the number of sellers 
 
 
 
