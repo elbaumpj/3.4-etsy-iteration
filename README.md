@@ -1,1 +1,2 @@
 # 3.4-etsy-iteration
+* I completed this assignment during Week 3 at The Iron Yard. For the assignment, I used functional iterators to mine a large dataset from Etsy. The objective of the assignment was to familiarize myself with functional iterators like map, reduce, filter and forEach. The main.js file will show how I used those iterators to manipulate the data. You can also clone the repo if you'd like to get it working locally.
